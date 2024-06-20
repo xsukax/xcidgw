@@ -4,8 +4,8 @@ int main() {
   std::string cid;
   std::cout << "Enter CID: ";
   std::cin >> cid;
-  std::cout << "https://xsukax.com/ipfs/cid.html?cid=" << cid << std::endl;
-  std::string url = "https://xsukax.com/ipfs/cid.html?cid=";
+  std::cout << "https://ipfs.xsukax.com/cid.html?cid=" << cid << std::endl;
+  std::string url = "https://ipfs.xsukax.com/cid.html?cid=";
 
   #ifdef _WIN32
   std::string command = "start " + url + cid;
